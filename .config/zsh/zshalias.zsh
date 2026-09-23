@@ -38,6 +38,9 @@ alias valgrindall="/usr/bin/valgrind --show-leak-kinds=all --leak-check=full"
 alias mpvnn="/usr/bin/mpv --no-audio-display --no-video --loop-file=inf --volume=50 $HOME/music/Xeno/Xenoblade\ 3/5.069\ Noah\ and\ N\ \(Phase\ 2\)\ \[v2\].flac"
 alias mpvs="/usr/bin/mpv --no-audio-display --loop-playlist=inf --no-video --volume=43"
 
+# avoid wget hosts file on home dir
+alias wget="wget --hsts-file=$XDG_STATE_HOME/wget-hsts"
+
 # pacman reflector update mirrors
 alias updatemirrors="sudo /usr/bin/reflector --latest 30 --country Greece,Germany,Netherlands --protocol https --age 24 --sort score --save /etc/pacman.d/mirrorlist"
 alias updatemirrorsr="sudo /usr/bin/reflector --latest 30 --country Greece,Germany,Netherlands --protocol https --age 24 --sort rate --save /etc/pacman.d/mirrorlist"
