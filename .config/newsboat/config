@@ -1,0 +1,31 @@
+auto-reload yes
+reload-time 1200
+# refresh-on-startup yes
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key G end
+bind-key g home
+bind-key d pagedown
+bind-key u pageup
+bind-key l open
+bind-key q quit
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+bind-key D pb-download
+bind-key U show-urls
+bind-key x pb-delete
+
+browser firefox
+macro , open-in-browser
+macro m set browser "mpv %u" ; open-in-browser ; set browser "firefox"
+macro b set browser "mpv --ytdl-format='bestvideo[height<=1080][vcodec^=vp9]+bestaudio/best[height<=1080]' %u"; open-in-browser; set browser "firefox"
+macro v set browser "mpv --ytdl-format='bestvideo[height<=720][vcodec^=vp9]+bestaudio/best[height<=1080]' %u"; open-in-browser; set browser "firefox"
+
+color listfocus         black color195 bold underline
+color listfocus_unread  black color87 bold underline
+color info              black color123 bold underline
