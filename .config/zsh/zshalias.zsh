@@ -46,4 +46,4 @@ alias updatemirrors="sudo /usr/bin/reflector --latest 30 --country Greece,German
 alias updatemirrorsr="sudo /usr/bin/reflector --latest 30 --country Greece,Germany,Netherlands --protocol https --age 24 --sort rate --save /etc/pacman.d/mirrorlist"
 
 # sxholh
-alias schedule="/usr/bin/cat $HOME/schedule.txt"
+alias sch="/usr/bin/retext --preview $HOME/documents/schedule.md"
