@@ -2,6 +2,8 @@ alias dotfileconfig="/usr/bin/git --git-dir=$HOME/.dotfilesgit --work-tree=$HOME
 
 alias formatdate="/usr/bin/date +\%F\ \%T\ \%z"
 
+alias v="/usr/bin/nvim"
+
 alias fdh="/usr/bin/fd --hidden"
 alias rgh="/usr/bin/rg --hidden"
 alias e="/usr/bin/eza --icons --group-directories-first"
