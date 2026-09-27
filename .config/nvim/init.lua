@@ -60,8 +60,6 @@ vim.o.shiftwidth = 2
 vim.o.expandtab = true
 vim.o.softtabstop = 0
 
-vim.o.colorcolumn = "120"
-
 --folding
 vim.o.foldcolumn = "1"
 
