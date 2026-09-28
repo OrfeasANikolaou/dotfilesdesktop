@@ -1,6 +1,7 @@
 alias dotfileconfig="/usr/bin/git --git-dir=$HOME/.dotfilesgit --work-tree=$HOME"
 
 alias formatdate="/usr/bin/date +\%F\ \%T\ \%z"
+alias dategit="/usr/bin/date '+%a %b %d %H:%M:%S %Y %z'"
 
 alias v="/usr/bin/nvim"
 
