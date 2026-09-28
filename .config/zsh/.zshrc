@@ -88,18 +88,6 @@ zstyle :compinstall filename '/home/orfeas/.config/zsh/.zshrc'
 [ -f $HOME/.config/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme ] && source $HOME/.config/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
 [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# #
-# #
-# # COMMAND-NOT-FOUND PLUGIN, SUSE ONLY
-# #
-# #
-# # SUSE and derivates: https://www.unix.com/man-page/suse/1/command-not-found/
-# if [[ -x /usr/bin/command-not-found ]]; then
-#   command_not_found_handler() {
-#     /usr/bin/command-not-found "$1"
-#   }
-# fi
-
 # reverse search
 bindkey "^R" history-incremental-search-backward
 bindkey '^p' history-search-backward
